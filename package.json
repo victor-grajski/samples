@@ -9,6 +9,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "vercel:build": "npm run build-storybook",
+    "vercel:preview": "npx serve storybook-static",
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,json}\"",
